@@ -287,12 +287,8 @@ option('adm-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "adm" group')
 option('audio-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "audio" group')
-option('cdrom-gid', type : 'integer', value : 0,
-       description : 'soft-static allocation for the "cdrom" group')
 option('clock-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "clock" group')
-option('dialout-gid', type : 'integer', value : 0,
-       description : 'soft-static allocation for the "dialout" group')
 option('disk-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "disk" group')
 option('input-gid', type : 'integer', value : 0,
@@ -303,18 +299,22 @@ option('kvm-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "kvm" group')
 option('lp-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "lp" group')
+option('optical-gid', type : 'integer', value : '0',
+       description : 'soft-static allocation for the "optical" group')
 option('render-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "render" group')
 option('sgx-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "sgx" group')
-option('tape-gid', type : 'integer', value : 0,
-       description : 'soft-static allocation for the "tape" group')
+option('storage-gid', type : 'integer', value : '0',
+       description : 'soft-static allocation for the "storage" group')
 option('tty-gid', type : 'integer', value : 5,
        description : 'the numeric GID of the "tty" group')
 option('users-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "users" group')
 option('utmp-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "utmp" group')
+option('uucp-gid', type : 'integer', value : '0',
+       description : 'soft-static allocation for the "uucp" group')
 option('video-gid', type : 'integer', value : 0,
        description : 'soft-static allocation for the "video" group')
 option('wheel-gid', type : 'integer', value : 0,
